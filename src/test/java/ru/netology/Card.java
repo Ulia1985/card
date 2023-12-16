@@ -11,7 +11,7 @@ public class Card {
 
     @Test
     void lastnamefirstnamephonecheckbox() {
-        open("http://localhost:8080");
+        open("http://localhost:9999");
         SelenideElement form = $(".form");
         form.$("[data-test-id=name] input").setValue("Иванова Лидия");
         form.$("[data-test-id=phone] input").setValue("+71111111111");
